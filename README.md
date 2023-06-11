@@ -17,6 +17,11 @@ Takım Flutter 18
 
 ## Ürün Açıklaması
 
+İçindeki keşif duygusunu ekrana aktarmak isteyenler için bir uygulama.
+
+Yaşadığı yerde, sevdiği şehirde gitmek istediği yerleri belirlediği; ziyaretlerini gerçekleştirdikçe kişisel keşif haritasının renklendiği ; gördüğü  noktaların fotoğrafını, videosunu paylaştığı;
+takip ettiği arkadaşlarının keşiflerini gördüğü,  yorumladığı, etkileşime geçtiği, kendi profilinde ve takip ettiği kişilerin profilinde ziyaret edilen yerlerin görsellerinin görülebildiği bir ürün
+
 ## Ürün Özellikleri
 
 ## Hedef Kitle
