@@ -1,16 +1,27 @@
-# ouakr
+# Takım İsmi
 
-A new Flutter project.
+Takım Flutter 18
 
-## Getting Started
+## Ürün İle İlgili Bilgiler
 
-This project is a starting point for a Flutter application.
+## Takım Elemanları
+- Elif Gökçen Diler: Scrum Master
+- Fatma Şahin: Product Owner
+- Mustafa Ergül: Developer
+- Nilüfer Sevim: Developer
+- Serkan Özdemir: Developer
 
-A few resources to get you started if this is your first Flutter project:
+## Ürün İsmi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Product Backlog URL
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ürün Açıklaması
+
+## Ürün Özellikleri
+
+## Hedef Kitle
+
+## Juriye Not
+
+# Sprint 1
+
