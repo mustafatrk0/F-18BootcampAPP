@@ -28,6 +28,7 @@ takip ettiği arkadaşlarının keşiflerini gördüğü,  yorumladığı, etkil
 - Keşif gurmeleri
 - Gençler
 - Aileler
+- Karavancılar
 - Gezginler
 - Merakın peşine düşen doğayı, çevreyi keşfetmeye 
 ilgisi olanlar
