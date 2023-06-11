@@ -23,8 +23,16 @@ Yaşadığı yerde, sevdiği şehirde gitmek istediği yerleri belirlediği; ziy
 takip ettiği arkadaşlarının keşiflerini gördüğü,  yorumladığı, etkileşime geçtiği, kendi profilinde ve takip ettiği kişilerin profilinde ziyaret edilen yerlerin görsellerinin görülebildiği bir ürün
 
 ## Ürün Özellikleri
+Manzara, doğal yaşam, kültürel, mimari, sanat fotoğraf ve videolarının paylaşıldığı;  keşfedilen noktanın ziyaret edenin gözünden ,kaleminden anlatıldığı bir platform.
+
+Kullanıcının ilçesinde, şehrinde, ülkesinde ziyaret etmediği yeni yerleri farkedeceği; ziyaretlerini gerçekleştirdikçe kişisel haritasının renkleneceği bir ürün.
+
+Takipçilerin etkileşime geçebiliyor.
+
+Ana Sayfa, Profil, Seyahat Haritası, Takipçiler, Takip Edilenler, Mesaj kutusu, Keşfet  gibi bölüm ve araçları var.
 
 ## Hedef Kitle
+- Seyahat Severler
 - Keşif gurmeleri
 - Gençler
 - Aileler
@@ -34,6 +42,10 @@ takip ettiği arkadaşlarının keşiflerini gördüğü,  yorumladığı, etkil
 ilgisi olanlar
 
 ## Juriye Not
+Durduğu yeri bilmeyen nereye bakacağını bilemez.
+Çevresini, yaşadığı yeri tanıyarak gördüklerini ekrana getirenlerin uygulamasına hoş geldiniz.
+
+Keşfetmeye başlamanın tam zamanı.
 
 # Sprint 1
 
