@@ -20,6 +20,12 @@ Takım Flutter 18
 ## Ürün Özellikleri
 
 ## Hedef Kitle
+- Keşif gurmeleri
+- Gençler
+- Aileler
+- Gezginler
+- Merakın peşine düşen doğayı, çevreyi keşfetmeye 
+ilgisi olanlar
 
 ## Juriye Not
 
