@@ -2,7 +2,7 @@
 
 Takım Flutter 18
 
-## Ürün İle İlgili Bilgiler
+# Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 - Elif Gökçen Diler: Scrum Master
