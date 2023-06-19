@@ -48,4 +48,11 @@ Durduğu yeri bilmeyen nereye bakacağını bilemez.
 Keşfetmeye başlamanın tam zamanı.
 
 # Sprint 1
+Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+
+Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. 
+
+Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+Sprint Review: Alınan kararlar: Ekip içerisindeki rol dağılımı yapıldı,  uygulama fikri hakkında görüşüp yapılacak işler listesi çıkarıldı. Sınavlar nedeni ile çalışmalara 19 haziran haftası başlama kararı alındı.
 
