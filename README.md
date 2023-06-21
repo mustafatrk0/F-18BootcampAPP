@@ -56,3 +56,11 @@ Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puan
 
 Sprint Review: Alınan kararlar: Ekip içerisindeki rol dağılımı yapıldı,  uygulama fikri hakkında görüşüp yapılacak işler listesi çıkarıldı. Sınavlar nedeni ile çalışmalara 19 haziran haftası başlama kararı alındı.
 
+Asana Sprint Board Link: https://app.asana.com/0/1204796399153704/board 
+Sprint board update: Sprint board screenshotları:
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/5ac257b8-cf66-47ad-a604-ec6c78f71f4e)
+
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/edb2b16c-7e73-4d74-81f6-b178406929f3)
+
+Uygulamamız için planlanan tasarım:  
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/45ca6d88-d6fd-4f12-982d-62170ab46989)
