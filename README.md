@@ -14,6 +14,7 @@ Takım Flutter 18
 ## Ürün İsmi
 
 ## Product Backlog URL
+Asana Sprint Board Link: https://app.asana.com/0/1204796399153704/board 
 
 ## Ürün Açıklaması
 
@@ -56,7 +57,9 @@ Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puan
 
 Sprint Review: Alınan kararlar: Ekip içerisindeki rol dağılımı yapıldı,  uygulama fikri hakkında görüşüp yapılacak işler listesi çıkarıldı. Sınavlar nedeni ile çalışmalara 19 haziran haftası başlama kararı alındı.
 
-Asana Sprint Board Link: https://app.asana.com/0/1204796399153704/board 
+Sprint Retrospective: Zaman yönetimini daha etkin yaparak projeye gereken önemin verilmesi tartışıldı ve önümüzdeki ilk hafta için görev dağılımı yapıldı. 
+
+
 Sprint board update: Sprint board screenshotları:
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/5ac257b8-cf66-47ad-a604-ec6c78f71f4e)
 
