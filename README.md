@@ -67,3 +67,4 @@ Sprint board update: Sprint board screenshotları:
 
 Uygulamamız için planlanan tasarım:  
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/45ca6d88-d6fd-4f12-982d-62170ab46989)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/039af112-ab4e-4870-baf8-136514b12ec4)
