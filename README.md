@@ -81,6 +81,7 @@ Figma ekran görüntüleri:
 Uygulama ilk açılış (tanıtım slaytı):
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/a927af50-173b-4296-9782-683bd8496f2f)
 -Tasarım içerisinde kullanılan görseller pexels üzerinden ücretsiz olarak indirilmiştir.-
+
 Uygulama girişi: 
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/33d99e66-cd17-4d2a-9c45-ceefc806ae9d)
 Bottom Navigation Bar: 
