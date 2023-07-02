@@ -86,3 +86,23 @@ Uygulama girişi:
 Bottom Navigation Bar: 
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/56b3caf7-8e24-4237-af1b-d396b0ad3e8a)
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/ea8d42fb-4ebc-40b6-bd42-cf241b1973f8)
+
+# Sprint 3
+Sprint Notları: Takımımızdan 2 arkadaşımız ayrıldı. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
+Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
+Fatma: Görevlerin takibi ve Profil sayfasının tasarımı
+Mustafa: Firebase Storage'e veri eklenmesi ve buralan çekilen verinin uygulamada kullanılması
+Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje düzenlemesi
+
+Figma ekran görüntüleri: 
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/25a10b03-ec6f-4377-b51c-a0a8f17bcdfa)
+Uygulama ilk açılış (tanıtım slaytı):
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/a927af50-173b-4296-9782-683bd8496f2f)
+-Tasarım içerisinde kullanılan görseller pexels üzerinden ücretsiz olarak indirilmiştir.-
+
+Uygulama girişi: 
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/33d99e66-cd17-4d2a-9c45-ceefc806ae9d)
+Bottom Navigation Bar: 
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/56b3caf7-8e24-4237-af1b-d396b0ad3e8a)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/ea8d42fb-4ebc-40b6-bd42-cf241b1973f8)
