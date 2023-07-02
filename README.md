@@ -107,7 +107,7 @@ Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje 
 ![image](https://r.resimlink.com/hM3i2XPbBx.jpg)
 ![image](https://r.resimlink.com/CgKYmwd3nL9.jpg)
 ![image](https://r.resimlink.com/7XE8Fouki0.jpg)
-![image](https://r.resimlink.com/wmSRf4N.jpg)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/71f9fd2f-1061-42f5-a26e-2f1995d3440d)
 
 * Sprint Review: Alınan Kararlar : Kişilerin kendi kullanıcı adının id olarak belirlenmesi ve yapılan paylaşımların bu kullanıcıadı altında depolanmasına karar verildi. Kişilerin takipleşme sistemine göre listeleme yapılmasına karar verildi. Uygulamada belirli işlevsel sadeleştirmelere karar verildi.
 Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
