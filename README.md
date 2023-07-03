@@ -68,28 +68,9 @@ Uygulamamız için planlanan tasarım:
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/039af112-ab4e-4870-baf8-136514b12ec4)
 
 # Sprint 2
-İkinci sprint'in ilk haftasında yapılan görev dağılımı: 
-Elif- Nilüfer: Figma üzerinden uygulamanın tasarımına başlanması 
-Mustafa: Uygulama içerisinde kullanmak üzere harita entegrasyonu ve harita üzerine gerekli grafiklerin eklenmesi
-Serkan: Firebase kurulumu
-Fatma: Profil sayfası tasarımı 
-
-Figma ekran görüntüleri: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/25a10b03-ec6f-4377-b51c-a0a8f17bcdfa)
-Uygulama ilk açılış (tanıtım slaytı):
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/a927af50-173b-4296-9782-683bd8496f2f)
--Tasarım içerisinde kullanılan görseller pexels üzerinden ücretsiz olarak indirilmiştir.-
-
-Uygulama girişi: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/33d99e66-cd17-4d2a-9c45-ceefc806ae9d)
-Bottom Navigation Bar: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/56b3caf7-8e24-4237-af1b-d396b0ad3e8a)
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/ea8d42fb-4ebc-40b6-bd42-cf241b1973f8)
-
-# Sprint 3
 * Sprint Notları: Takımımızdan 2 arkadaşımız ayrıldı. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
 * Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
-* Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 3 sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+* Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 2. sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
 Fatma: Görevlerin takibi ve Profil sayfasının tasarımı
 Mustafa: Firebase Storage'e veri eklenmesi ve buralan çekilen verinin uygulamada kullanılması
