@@ -96,5 +96,34 @@ Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
 * Sprint Retrospective:
   * Takımdan arkadaşlar ayrıldığı için o arkadaşlara düşen görevlerin takım içinde paylaşılacak
   * Ek yeni görevler ile herkesin daha fazla zaman ve emek harcamalı
+ 
+# Sprint 3
+* Sprint Notları: Takımımızdan 2 arkadaşımız ayrıldı. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
+* Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+* Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 3. sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
+Fatma: Görevlerin takibi ve Profil sayfasının tasarımı
+Mustafa: Firebase Storage'e veri eklenmesi ve buralan çekilen verinin uygulamada kullanılması
+Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje düzenlemesi
+
+* Daily Scrum <br>
+
+![image](https://resimlink.com/5OqXVSCl)
+![image](https://resimlink.com/jHKJFcEw)
+
+* Sprint Board Update
+![image](https://resimlink.com/RxTehIjuo_8z)
+
+* Ürün Durumu: Ekran görüntüleri:
+![image](https://resimlink.com/cN1VhbH)
+![image](https://resimlink.com/iJ64At7CBg)
+![image](https://resimlink.com/5iDfkrXlA)
+
+* Sprint Review: Alınan Kararlar : Ürünün eksikleri belirlendi.Revizelere karar verildi. Uygulamada belirli işlevsel sadeleştirmelere karar verildi.
+Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
+
+* Sprint Retrospective:
+  * Ek yeni görevler ile herkesin daha fazla zaman ve emek harcamalı
+  * Son sprint tamamlandı
   
 
