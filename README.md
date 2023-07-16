@@ -108,16 +108,21 @@ Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje 
 
 * Daily Scrum <br>
 
-![image](https://resimlink.com/5OqXVSCl.jpg)
-![image](https://resimlink.com/jHKJFcEw.jpg)
+![image](https://r.resimlink.com/jHKJFcEw.png)
+![image](https://r.resimlink.com/dKej4.png)
 
-* Sprint Board Update
-![image](https://resimlink.com/RxTehIjuo_8z)
+* Sprint Board Update :
+![image](https://r.resimlink.com/b64opd7z.png).
+
 
 * Ürün Durumu: Ekran görüntüleri:
-![image](https://resimlink.com/cN1VhbH)
-![image](https://resimlink.com/iJ64At7CBg)
-![image](https://resimlink.com/5iDfkrXlA)
+![image](https://r.resimlink.com/r0bl9NT.jpg)
+![image](https://r.resimlink.com/6dX5LQoMJR.jpeg)
+
+
+*Ürün Logosu:
+![image](https://r.resimlink.com/5OP7TltNE3.png)
+
 
 * Sprint Review: Alınan Kararlar : Ürünün eksikleri belirlendi.Revizelere karar verildi. Uygulamada belirli işlevsel sadeleştirmelere karar verildi.
 Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
