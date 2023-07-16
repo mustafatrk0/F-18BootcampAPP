@@ -108,8 +108,8 @@ Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje 
 
 * Daily Scrum <br>
 
-![image](https://resimlink.com/5OqXVSCl)
-![image](https://resimlink.com/jHKJFcEw)
+![image](https://resimlink.com/5OqXVSCl.jpg)
+![image](https://resimlink.com/jHKJFcEw.jpg)
 
 * Sprint Board Update
 ![image](https://resimlink.com/RxTehIjuo_8z)
