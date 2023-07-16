@@ -98,7 +98,7 @@ Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
   * Ek yeni görevler ile herkesin daha fazla zaman ve emek harcamalı
  
 # Sprint 3
-* Sprint Notları: Takımımızdan 2 arkadaşımız ayrıldı. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
+* Sprint Notları: Takımımız 3 kişi olarak sürece devam etti. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
 * Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
 * Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 3. sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
