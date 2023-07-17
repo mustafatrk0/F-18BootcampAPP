@@ -49,7 +49,7 @@ class AnasayfaState extends State<Anasayfa> {
     return new Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Center(child: Text("WanderMapp", style: TextStyle(color: Colors.black))),
+        title: Center(child: Text("WanderMApp", style: TextStyle(color: Colors.black))),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.favorite_border, color: Colors.grey),
