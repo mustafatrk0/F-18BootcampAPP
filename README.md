@@ -5,10 +5,8 @@ Takım Flutter 18
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Elif Gökçen Diler: Scrum Master
-- Fatma Şahin: Product Owner
+- Fatma Şahin: Scrum Master and Product Owner
 - Mustafa Ergül: Developer
-- Nilüfer Sevim: Developer
 - Serkan Özdemir: Developer
 
 ## Ürün İsmi
@@ -70,20 +68,67 @@ Uygulamamız için planlanan tasarım:
 ![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/039af112-ab4e-4870-baf8-136514b12ec4)
 
 # Sprint 2
-İkinci sprint'in ilk haftasında yapılan görev dağılımı: 
-Elif- Nilüfer: Figma üzerinden uygulamanın tasarımına başlanması 
-Mustafa: Uygulama içerisinde kullanmak üzere harita entegrasyonu ve harita üzerine gerekli grafiklerin eklenmesi
-Serkan: Firebase kurulumu
-Fatma: Profil sayfası tasarımı 
+* Sprint Notları: Takımımızdan 2 arkadaşımız ayrıldı. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
+* Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+* Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 2. sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
+Fatma: Görevlerin takibi ve Profil sayfasının tasarımı
+Mustafa: Firebase Storage'e veri eklenmesi ve buralan çekilen verinin uygulamada kullanılması
+Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje düzenlemesi
 
-Figma ekran görüntüleri: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/25a10b03-ec6f-4377-b51c-a0a8f17bcdfa)
-Uygulama ilk açılış (tanıtım slaytı):
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/a927af50-173b-4296-9782-683bd8496f2f)
--Tasarım içerisinde kullanılan görseller pexels üzerinden ücretsiz olarak indirilmiştir.-
+* Daily Scrum <br>
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/a0053583-9b6f-44bd-83dd-57a22a58adb1)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/55523d96-f0fc-45a8-85b5-5fe446cc4c1a)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/0aebeef7-aec2-4f71-9ba0-d5952040ac14)
 
-Uygulama girişi: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/33d99e66-cd17-4d2a-9c45-ceefc806ae9d)
-Bottom Navigation Bar: 
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/56b3caf7-8e24-4237-af1b-d396b0ad3e8a)
-![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/130253032/ea8d42fb-4ebc-40b6-bd42-cf241b1973f8)
+* Sprint Board Update
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/35fadc9c-6790-4644-8c27-7fb14d9c5d1a)
+
+* Ürün Durumu: Ekran görüntüleri:
+![image](https://r.resimlink.com/hM3i2XPbBx.jpg)
+![image](https://r.resimlink.com/CgKYmwd3nL9.jpg)
+![image](https://r.resimlink.com/7XE8Fouki0.jpg)
+![image](https://github.com/mustafatrk0/F-18BootcampAPP/assets/66215069/71f9fd2f-1061-42f5-a26e-2f1995d3440d)
+
+* Sprint Review: Alınan Kararlar : Kişilerin kendi kullanıcı adının id olarak belirlenmesi ve yapılan paylaşımların bu kullanıcıadı altında depolanmasına karar verildi. Kişilerin takipleşme sistemine göre listeleme yapılmasına karar verildi. Uygulamada belirli işlevsel sadeleştirmelere karar verildi.
+Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
+
+* Sprint Retrospective:
+  * Takımdan arkadaşlar ayrıldığı için o arkadaşlara düşen görevlerin takım içinde paylaşılacak
+  * Ek yeni görevler ile herkesin daha fazla zaman ve emek harcamalı
+ 
+# Sprint 3
+* Sprint Notları: Takımımız 3 kişi olarak sürece devam etti. Scrum Master ve Product Owner görevlerini Fatma üstlendi.
+* Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+* Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde 3. sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+Üçüncü sprint'in ilk haftasında yapılan görev dağılımı: 
+Fatma: Görevlerin takibi ve Profil sayfasının tasarımı
+Mustafa: Firebase Storage'e veri eklenmesi ve buralan çekilen verinin uygulamada kullanılması
+Serkan: Giriş, Kayıt Ol, Profil backendinin yazılması. Klasörleme ve proje düzenlemesi
+
+* Daily Scrum <br>
+
+![image](https://r.resimlink.com/jHKJFcEw.png)
+![image](https://r.resimlink.com/dKej4.png)
+
+* Sprint Board Update :
+![image](https://r.resimlink.com/b64opd7z.png).
+
+
+* Ürün Durumu: Ekran görüntüleri:
+![image](https://r.resimlink.com/r0bl9NT.jpg)
+![image](https://r.resimlink.com/6dX5LQoMJR.jpeg)
+
+
+*Ürün Logosu:
+![image](https://r.resimlink.com/5OP7TltNE3.png)
+
+
+* Sprint Review: Alınan Kararlar : Ürünün eksikleri belirlendi.Revizelere karar verildi. Uygulamada belirli işlevsel sadeleştirmelere karar verildi.
+Sprint Review katılımcıları: Mustafa Ergül, Serkan Özdemir, Fatma Şahin
+
+* Sprint Retrospective:
+  * Ek yeni görevler ile herkesin daha fazla zaman ve emek harcamalı
+  * Son sprint tamamlandı
+  
+
