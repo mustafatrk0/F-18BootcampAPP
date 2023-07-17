@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 
 void main() => runApp(KesfetPage());
 
@@ -15,15 +16,35 @@ class KesfetPage extends StatelessWidget {
   }
 }
 
-class Kesfet extends StatelessWidget {
-  final List<String> popularPosts = [
-    'Popüler Post 1',
-    'Popüler Post 2',
-    'Popüler Post 3',
-    'Popüler Post 4',
-    'Popüler Post 5',
-    'Popüler Post 6',
-  ];
+class Kesfet extends StatefulWidget {
+  @override
+  _KesfetState createState() => _KesfetState();
+}
+
+class _KesfetState extends State<Kesfet> {
+  List<String> imageUrls = [];
+
+  @override
+  void initState() {
+    super.initState();
+    getImagesFromFolders();
+  }
+
+  Future<void> getImagesFromFolders() async {
+    final Reference storageRef = FirebaseStorage.instance.ref().child('paylasimlar');
+    final ListResult result = await storageRef.listAll();
+
+    for (final Reference ref in result.prefixes) {
+      final ListResult subResult = await ref.listAll();
+
+      for (final Reference subRef in subResult.items) {
+        final String downloadUrl = await subRef.getDownloadURL();
+        setState(() {
+          imageUrls.add(downloadUrl);
+        });
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -47,34 +68,15 @@ class Kesfet extends StatelessWidget {
           ),
           Expanded(
             child: ListView.builder(
-              itemCount: (popularPosts.length / 3).ceil(),
+              itemCount: imageUrls.length,
               itemBuilder: (BuildContext context, int index) {
-                final int startIndex = index * 3;
-                final int endIndex = (startIndex + 3 < popularPosts.length) ? startIndex + 3 : popularPosts.length;
+                final String imageUrl = imageUrls[index];
 
                 return Padding(
                   padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: List.generate(endIndex - startIndex, (int i) {
-                      final int postIndex = startIndex + i;
-                      final String post = popularPosts[postIndex];
-
-                      return Expanded(
-                        child: GestureDetector(
-                          onTap: () {
-                            // Seçilen popüler posta yönlendirme işlemleri burada yapılabilir.
-                          },
-                          child: Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 4.0),
-                            child: Image.asset(
-                              'assets/posts/post_${postIndex + 1}.jpg',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      );
-                    }),
+                  child: Image.network(
+                    imageUrl,
+                    fit: BoxFit.cover,
                   ),
                 );
               },

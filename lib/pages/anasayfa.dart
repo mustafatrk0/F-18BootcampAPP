@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dialogs/flutter_dialogs.dart';
@@ -8,6 +9,7 @@ import 'package:ouakr/pages/kesfet.dart';
 import 'package:ouakr/pages/camera.dart';
 import 'package:custom_marker/marker_icon.dart';
 import 'package:ouakr/pages/time_line.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 
 
 class Anasayfa extends StatefulWidget {
@@ -36,8 +38,9 @@ class AnasayfaState extends State<Anasayfa> {
   );
 
   Set<Marker> pic = { };
-  //List<Marker> pic = [ ];
-  List<LatLng> coordinateList = [];
+  List<String> imageUrls = [];
+  //List<Marker> pice = [ ];
+  //List<LatLng> coordinateList = [];
 
   int seciliSayfa = 0;
 
@@ -190,7 +193,9 @@ class AnasayfaState extends State<Anasayfa> {
   void initState() {
     super.initState();
     checkLocationPermission();
-    picKonum();
+    getImagesFromFirestore();
+    //getImagesFromFolders();
+    //picKonum();
   }
 
   void checkLocationPermission() async {
@@ -236,30 +241,66 @@ class AnasayfaState extends State<Anasayfa> {
       await Geolocator.openLocationSettings();
     }
   }
-
+/*
   Future<void> picKonum() async {
 
     Position position = await goToLocation();
 
-    pic.clear();
-
-    pic.add(Marker(
-      markerId: MarkerId('anlikKonum'),
-      position: LatLng(position.latitude,position.longitude),
-      icon: await MarkerIcon.downloadResizePictureCircle(widget.imageUrl!),
-      //icon: await MarkerIcon.pictureAsset(assetPath: 'assets/profile_icon.png', width: 110, height: 110),
-    ),
-    );
+    for(int i = 0; i < imageUrls.length ; i++){
+      pic.add(Marker(
+        markerId: MarkerId('picKonum'),
+        position: LatLng(position.latitude,position.longitude),
+        icon: await MarkerIcon.downloadResizePictureCircle(imageUrls[i]),
+        //icon: await MarkerIcon.pictureAsset(assetPath: 'assets/profile_icon.png', width: 110, height: 110),
+      ),
+      );
+    }
     setState(() {});
   }
-  /*
-  Future<void> picKonum() async {
-    pic.add(Marker(
-      markerId: MarkerId('picKonum'),
-      position: LatLng(41.015137,28.979530),
-      icon: await MarkerIcon.downloadResizePictureCircle(widget.imageUrl!),
-    ),
-    );
+  Future<void> getImagesFromFolders() async {
+    final Reference storageRef = FirebaseStorage.instance.ref().child('paylasimlar');
+    final ListResult result = await storageRef.listAll();
+
+    for (final Reference ref in result.prefixes) {
+      final ListResult subResult = await ref.listAll();
+
+      for (final Reference subRef in subResult.items) {
+        final String downloadUrl = await subRef.getDownloadURL();
+        setState(() {
+          imageUrls.add(downloadUrl);
+        });
+      }
+    }
+  }
+*/
+  Future<void> getImagesFromFirestore() async {
+    final FirebaseFirestore firestore = FirebaseFirestore.instance;
+    final CollectionReference photosRef = firestore.collection('Photos');
+
+    final QuerySnapshot snapshot = await photosRef.get();
+
+    if (snapshot != null) {
+      final List<QueryDocumentSnapshot> documents = snapshot.docs;
+      for (final DocumentSnapshot doc in documents) {
+        final Map<String, dynamic>? data = doc.data() as Map<String, dynamic>?;
+
+        if (data != null && data.containsKey('photoUrl') && data.containsKey('latitude') && data.containsKey('longitude')) {
+          final String photoUrl = data['photoUrl'] as String;
+          final double latitude = data['latitude'] as double;
+          final double longitude = data['longitude'] as double;
+
+          final LatLng position = LatLng(latitude, longitude);
+
+          pic.add(Marker(
+            markerId: MarkerId('picKonum_${doc.id}'),
+            position: position,
+            icon: await MarkerIcon.downloadResizePictureCircle(photoUrl),
+          ));
+        }
+      }
+    }
+
     setState(() {});
-  }*/
+  }
+
 }
