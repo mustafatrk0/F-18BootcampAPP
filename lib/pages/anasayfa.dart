@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dialogs/flutter_dialogs.dart';
-import 'package:permission_handler/permission_handler.dart';
-import 'package:camera/camera.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ouakr/profil.dart';
-import 'package:ouakr/kesfet.dart';
-import 'package:ouakr/camera.dart';
-import 'package:ouakr/giris.dart';
-import 'package:ouakr/singlephoto.dart';
+import 'package:ouakr/pages/profile_pages.dart';
+import 'package:ouakr/pages/kesfet.dart';
+import 'package:ouakr/pages/camera.dart';
 import 'package:custom_marker/marker_icon.dart';
+import 'package:ouakr/pages/time_line.dart';
 
 
 class Anasayfa extends StatefulWidget {
@@ -39,10 +35,9 @@ class AnasayfaState extends State<Anasayfa> {
     zoom: 4.85,
   );
 
-  Set<Marker> konum = { };
-  List<Marker> pic = [ ];
+  Set<Marker> pic = { };
+  //List<Marker> pic = [ ];
   List<LatLng> coordinateList = [];
-
 
   int seciliSayfa = 0;
 
@@ -51,10 +46,10 @@ class AnasayfaState extends State<Anasayfa> {
     return new Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Center(child: Text("Keşfet", style: TextStyle(color: Colors.black))),
+        title: Center(child: Text("WanderMapp", style: TextStyle(color: Colors.black))),
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.settings, color: Colors.black),
+            icon: Icon(Icons.favorite_border, color: Colors.grey),
             onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => Anasayfa()));
             },
@@ -67,10 +62,11 @@ class AnasayfaState extends State<Anasayfa> {
         initialCameraPosition: _initalCameraPosition,
         cameraTargetBounds: CameraTargetBounds(turkeyBounds),
         zoomControlsEnabled: false,
+        myLocationEnabled: true,
         //tiltGesturesEnabled: true,
         //compassEnabled: true,
         //scrollGesturesEnabled: true,
-        markers: konum,
+        markers: pic,
         onMapCreated: (GoogleMapController controller) {
           googleMapController = controller;
         },
@@ -85,8 +81,6 @@ class AnasayfaState extends State<Anasayfa> {
                   tilt: 59.440717697143555,
                   zoom: 16.151926040649414,
                   bearing: 360.8334901395799)));
-
-          //anlikKonum();
         },
         child: Icon(
           Icons.location_searching,
@@ -122,10 +116,10 @@ class AnasayfaState extends State<Anasayfa> {
             );
           }
           else if(index == 3){
-            Navigator.push(context, MaterialPageRoute(builder:(context)=>LoginPage()));
+            Navigator.push(context, MaterialPageRoute(builder:(context)=>TimeLine()));
           }
           else if(index == 4){
-            Navigator.push(context, MaterialPageRoute(builder:(context)=>Profil()));
+            Navigator.push(context, MaterialPageRoute(builder:(context)=>ProfilePage()));
           }
         },
         items: <BottomNavigationBarItem>[
@@ -138,12 +132,12 @@ class AnasayfaState extends State<Anasayfa> {
               label: "Keşfet"
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.add_box),
+              icon: Icon(Icons.camera_alt),
               label: "Ekle"
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite),
-              label: "Bildirim"
+              icon: Icon(Icons.person_add),
+              label: "Topluluk"
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.person),
@@ -196,8 +190,7 @@ class AnasayfaState extends State<Anasayfa> {
   void initState() {
     super.initState();
     checkLocationPermission();
-    anlikKonum();
-    //picKonum();
+    picKonum();
   }
 
   void checkLocationPermission() async {
@@ -244,21 +237,22 @@ class AnasayfaState extends State<Anasayfa> {
     }
   }
 
-  Future<void> anlikKonum() async {
+  Future<void> picKonum() async {
 
     Position position = await goToLocation();
 
-    konum.clear();
+    pic.clear();
 
-    konum.add(Marker(
+    pic.add(Marker(
       markerId: MarkerId('anlikKonum'),
       position: LatLng(position.latitude,position.longitude),
-      //icon: await MarkerIcon.downloadResizePictureCircle(widget.imageUrl!),
-      icon: await MarkerIcon.pictureAsset(assetPath: 'assets/profile_icon.png', width: 110, height: 110),
+      icon: await MarkerIcon.downloadResizePictureCircle(widget.imageUrl!),
+      //icon: await MarkerIcon.pictureAsset(assetPath: 'assets/profile_icon.png', width: 110, height: 110),
     ),
     );
     setState(() {});
   }
+  /*
   Future<void> picKonum() async {
     pic.add(Marker(
       markerId: MarkerId('picKonum'),
@@ -267,5 +261,5 @@ class AnasayfaState extends State<Anasayfa> {
     ),
     );
     setState(() {});
-  }
+  }*/
 }

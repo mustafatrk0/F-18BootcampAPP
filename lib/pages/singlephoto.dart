@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:io';
-
-import 'package:ouakr/anasayfa.dart';
+import 'dart:math';
+import 'package:ouakr/pages/anasayfa.dart';
 
 class PhotoPage extends StatelessWidget {
   final XFile imageFile;
@@ -15,16 +16,28 @@ class PhotoPage extends StatelessWidget {
     try {
       final FirebaseAuth auth = FirebaseAuth.instance;
       final User? user = auth.currentUser;
+
+      final currentUser = FirebaseAuth.instance.currentUser;
+      final userCollection = FirebaseFirestore.instance.collection("Users");
+
       if (user == null) {
         print('Kullanıcı oturumu açık değil');
         return null;
       }
 
+      var random = Random();
+
+      // 0 ile 100 arasında bir random sayı üretme
+      var randomNumber = random.nextInt(10001);
+
+      final splitted = currentUser!.email!.split('@');
+      final split = splitted.first;
+
       final Reference referansYol = FirebaseStorage.instance
           .ref()
           .child("paylasimlar")
-          .child(user.uid)
-          .child("Resmi.png");
+          .child(split.toString())
+          .child("resim$randomNumber.png");
 
       final File file = File(imageFile.path);
       final UploadTask yuklemeGorevi = referansYol.putFile(file);

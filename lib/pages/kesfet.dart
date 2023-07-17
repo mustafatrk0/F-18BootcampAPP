@@ -8,7 +8,7 @@ class KesfetPage extends StatelessWidget {
     return MaterialApp(
       title: 'Keşfet Sayfası',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
       home: Kesfet(),
     );

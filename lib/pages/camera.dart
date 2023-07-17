@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:ouakr/singlephoto.dart';
+import 'package:ouakr/pages/singlephoto.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -55,6 +55,7 @@ class _CameraScreenState extends State<CameraScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple,
         title: Text('Kamera Ekranı'),
       ),
       body: FutureBuilder<void>(
@@ -85,6 +86,7 @@ class _CameraScreenState extends State<CameraScreen> {
           }
         },
         child: Icon(Icons.camera),
+        backgroundColor: Colors.purple,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
