@@ -5,9 +5,8 @@ Takım Flutter 18
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Fatma Şahin: Scrum Master and Product Owner
-- Mustafa Ergül: Developer
-- Serkan Özdemir: Developer
+- Mustafa Ergül: Developer and Scrum Master
+- Serkan Özdemir: Developer and Product Owner
 
 ## Ürün İsmi
 
